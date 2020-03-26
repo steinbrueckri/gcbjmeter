@@ -4,3 +4,7 @@ steps:
     - '-n'
     - '-t'
     - 'sample.jmx'
+
+timeout: 1800s
+options:
+ machineType: "N1_HIGHCPU_32"
