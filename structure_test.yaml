@@ -1,0 +1,11 @@
+schemaVersion: 2.0.0
+
+fileExistenceTests:
+  - name: '/launch.sh exist ...'
+    path: /launch.sh
+    shouldExist: true
+    uid: 0
+    gid: 0
+
+metadataTest:
+  entrypoint: ['/launch.sh']
