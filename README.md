@@ -16,7 +16,7 @@ Create a cloud builder yaml file, see example below
 
 ```yaml
 steps:
-  - name: 'gcr.io/$PROJECT_ID/jmeter:latest'
+  - name: 'steinbrueckri/jmeter:latest'
     args:
     - '-n'
     - '-t'
